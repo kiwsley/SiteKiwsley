@@ -1,51 +1,105 @@
 <!DOCTYPE html>
-<html lang="pt">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Página Principal</title>
-    
-    <link rel="stylesheet" href="./CSS/reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./CSS/estilosPaginaPrincipal.css">
-</head>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Início | Kiwsley</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/ecf7c1e869.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
 
-<body>
-    
-    <div class="container">
 
-    <header class="cabecalho">
+    </head>
+
+    <body class="app">
+        <header class="cabecalho">
+            <div class="container">
         
-        <div class="perfil">
-        <img class= "fotoPrincipal" src="https://github.com/kiwsley.png" alt="Imagem do Autor">
-        <div class="titulos">
-        <h1  >Kiwsley Freire  </h1>
-        <h3 > Analista de Suporte</h3>
-        </div>        
-        </div>   
-            <nav class="navegacao">
-                <ul class="menu">
-                    <li class="menu-itens"><a href="#"></a>Início </li>
-                    <li class="menu-itens"><a href="#"></a>Quem sou? </li>
-                    <li class="menu-itens"><a href="#"></a>Contatos </li>
-                    <li class="menu-itens"><a href="#"></a>Comunidade </li>
-                </ul>
-            </nav>
-     
-   
-        
-            <div class="temaBotao">
-            <button onclick ="mudaTema()"> Alterar Tema </button>    
+                <nav>
+                    <ul class="cabecalhoPrincipal__nav">
+                       <li class="cabecalhoPrincipal__nav-link "> <a href="#"> Início </a></li>
+                       <li class="cabecalhoPrincipal__nav-link "> <a href="#"> Sobre </a></li>
+                       <li class="cabecalhoPrincipal__nav-link "> <a href="#"> Portifólio </a></li>
+                       <li class="cabecalhoPrincipal__nav-link "> <a href="#"> Contato </a></li>
+                       
+                    </ul>
+
+                </nav>
+
+                
+            
             </div>
-    </div>    
-        
-    </header>
+        </header>
 
-    <main>
-        
-    </main>
-</body>
+        <main>
+            
+            
+            <section class="inicio">
+                
+                <div class="container">
+
+                    <div class="apresentacao">
+                    <h3 class="apresentacaoH3">Olá, eu sou </h3>
+                    <h1 class="apresentacaoH1"> Kiwsley Freire</h1> 
+                    <h4 class="apresentacaoH4">Analista de Suporte e Estudante em front-end</h4>
+                    </div>
+                </div>
+                
+            </section>
+
+            
+            <section class="portifolio">
+                
+                <div class="container">
+
+                </div>
+
+            </section>
+
+            <section class="quemSou">
+
+                <div class="container">
+                    
+                    <img class= "fotoPrincipal" src="https://github.com/kiwsley.png" alt="Imagem do Autor">
+                    
+                    <div class="quemSou__infor">
+                        
+                    <h2 class="quemsou__titulo">Sobre </h2>
+                    <p class="quemsou__texto">
+                        Olá eu me chamo Kiwsley, atualmente trabalho como Analista de Suporte na ZG Soluções, tenho mais de 5 anos de experiência na área de suporte,
+                        sou formado em Técnologo em Telemática pelo Institudo Federal da Paraíba. Atualmente estou focado em tornar um Dev front-end.
+                        
+                    </p>
+                    </div>
+                </div>
+
+            </section>
+            
+            
+            
+            <section class="container__contato">
+
+                <div>
+                    <h2 class="titulo__contato">Contatos</h2>
+
+                    <nav >
+                        <ul class="contato__nav">
+                            <li class="contato__nav-link"><a href="https://www.linkedin.com/in/kiwsley-freire-a11760121/"> <i class="fa-brands fa-linkedin"></i> Linkedin </a></li>
+                            <li class="contato__nav-link"><a href="https://github.com/kiwsley"> <i class="fa-brands fa-github"></i> Github </a></li>
+                            <li class="contato__nav-link"><a href="#"> <i class="fa-brands fa-instagram"></i> Instagram </a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer class="rodape">
+            <p> &copy; Copyrigth Kiwsley - 2022 </p>
+        </footer>
+    </body>
+</html>

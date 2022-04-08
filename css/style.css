@@ -1,0 +1,165 @@
+.app{
+    background: #f1f1f1;
+    
+    font-family: 'MontSerrat' 'sans-serif';
+    background: linear-gradient(236.85deg, #030d1b 13.26%, #000000 96.03%);
+  
+}
+
+.cabecalho .container {
+    display: flex;  
+    
+    margin-bottom: 2rem;
+    height: 100px;
+    width: 80%;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 7.5%; 
+    
+}
+
+.cabecalhoPrincipal__nav{
+    display: flex;
+    
+
+}
+
+.cabecalhoPrincipal__nav-link{ 
+    padding: 10px;
+    margin-right: 10px;
+    color: #fdfdfd;
+    border: 1px solid #fdfdfd;
+    border-radius: 4px;
+    
+    
+}
+.cabecalhoPrincipal__nav-link:hover{ 
+
+    background-color: #4a8aa3;
+    transition: 1s;
+}
+
+
+
+.inicio .container{
+    display: flex;
+    margin-left: 10%;
+    height: 600px;
+    width: 90%;
+    background-image: url('../imagens/photo-1562813733-b31f71025d54.avif');
+    box-shadow: 8px 6px 6px #0E1D2F;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    
+}
+
+.apresetacao{
+    flex-direction: column;
+    
+    
+}    
+
+.apresentacaoH1{
+    
+    color: #fdfdfd;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.apresentacaoH3{
+    color: #59afd1;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.apresentacaoH4{
+    color: #59afd1;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.quemSou .container{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.quemSou {
+   margin-left: 25%; 
+   color: #fdfdfd;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 8px 6px 6px #0E1D2F;
+           
+}
+
+.fotoPrincipal{
+    
+    margin: 2%;
+    max-width: 300px; 
+    border-radius: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.quemSou__infor{
+    flex-direction: column;
+}
+
+.quemsou__titulo{
+    
+    text-align: center;
+    margin-top: 2%;
+    font-family: 'MontSerrat' 'sans-serif';
+    font-size: 26px;
+}
+
+
+.quemsou__texto{
+    padding: 2rem;
+    font-size: 22px;
+    text-align: justify;
+}
+
+
+.container__contato{
+    display: flex;
+    text-align: center;
+    color: #fdfdfd;
+ 
+    justify-content: space-around;
+    
+}
+
+.titulo__contato {
+    padding: 2rem;
+    font-family: 'MontSerrat';
+    font-size: 26px;
+    font-weight: 500;
+    
+
+}
+
+.contato__nav{
+    display: flex;
+
+}
+
+.contato__nav-link{
+    padding: 2rem;
+    font-family: 'MontSerrat';
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.rodape{
+    
+    font-size: 1rem;
+    color:#fdfdfd;
+    padding: 1rem;
+    text-align: center;
+}
